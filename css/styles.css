@@ -1,0 +1,125 @@
+/* Scroll smoothly */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body Tag */
+body {
+  font-family: "Montserrat";
+}
+
+/* Links */
+a:link {
+			color: blue;
+		}
+a:visited {
+			color: #91d18b;
+		}
+a:hover{
+			color: yellow;
+		}
+
+/* Nav Bar */
+.navLogo{
+    width: 23%;
+    border-radius: 100%;
+}
+.header {
+  background-color: #ea5455;
+}
+
+/* Covid */
+.covid {
+  text-align: center;
+  padding: 3% 25%;
+
+}
+.covidAlert {
+  border: 1.5px solid #ea5455;
+  background-color: #f7f2e7;
+}
+
+/* Posts */
+.posts {
+  padding: 1% 1%;
+  text-align: center;
+}
+@media (min-width:967px)
+{
+  .posts {
+    padding: 1% 15%;
+  }
+}
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: #4b5d67;
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  color: #ffcb8e;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ea5455;
+}
+
+/* Reviews  */
+#reviews {
+  padding: 7% 15%;
+  text-align: center;
+  color: black;
+}
+.reviews-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.reviewImg {
+  padding: 7% 15%;
+  border: 1px solid black;
+  background-color: #f7f2e7;
+}
+
+/* Business Hours */
+.busHrs {
+background-color: #4b5d67;
+padding: 2% 3%;
+text-align: center;
+color: white;
+font-family: 'Baloo Tamma 2', cursive;
+}
+
+/* CTA Section */
+
+.cta {
+  background-color: #ea5455;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+  padding: 1.8% 15%;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.social {
+  margin: 10px 15px;
+}
+
+/* Footer */
+.footer {
+  background-color: #4b5d67;
+  color: white;
+  text-align: center;
+  padding: 1% 15%;
+}
+.footer img {
+  width: 15%;
+}
